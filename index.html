@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link htef = "css/normalize.css" rel="stylesheet">
+    <link href = "css/style.css" rel="stylesheet">
+    <link href = "css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <header class="header">
+        <h1>Kalkulator walut</h1>
+    </header>
+    <main>  
+        <div>
+            <form class="form js-form">
+                <fieldset>
+                    <legend class="form__legend">PLN-EUR</legend>
+                    <p>
+                        <lable>
+                            Ile szmalu? <input class="js-amount" name="amount" type="number" step="any" min="0" placeholder="???" autofocus required>
+                        </lable>
+                    </p>
+                    <p>
+                        <button class="form__button form__button--count">Przelicz!</button>
+                    </p>
+                    <p>
+                        Tyle forsy: <strong class="js-result">N/A</strong>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
